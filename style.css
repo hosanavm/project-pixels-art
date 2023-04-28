@@ -6,3 +6,19 @@
     width: 50px;
     border: 1px solid black;
 }
+
+#colorOne {
+    background: black;
+}
+
+#colorTwo {
+    background: lime;
+}
+
+#colorThree {
+    background: plum;
+}
+
+#colorFour {
+    background: mediumslateblue;
+}
