@@ -7,6 +7,21 @@
     border: 1px solid black;
 }
 
+.pixel {
+    display: table-cell;
+    line-height: 40px;
+    vertical-align: top;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    background: white;
+}
+
+#pixel-board {
+    margin-top: 10px;
+    background: white;
+}
+
 #colorOne {
     background: black;
 }
