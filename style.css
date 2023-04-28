@@ -1,0 +1,8 @@
+.color {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
