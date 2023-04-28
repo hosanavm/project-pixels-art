@@ -27,6 +27,17 @@ function pintar() {
         event.target.style.background = corUsada;// leva o background para o pixel escolhido
       });
     }
-  }
-  pintar();// chama a função
-  // .getComputedStyle encontrado em https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp
+}
+pintar();// chama a função
+// .getComputedStyle encontrado em https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp
+
+function botaoLimpar() {
+const botao = document.querySelector('#clear-board');// pega o elemento com a classe clear-board
+const quadro = document.querySelectorAll('.pixel');// pega todos os elementos com a classe pixel
+botao.addEventListener('click', () => { // evento que limpa o quadro
+    for (let index = 0; index < quadro.length; index += 1) { // percorre todo o quadro
+    quadro[index].style.background = 'white'; // pinta os elementos de branco
+    }
+});
+}
+botaoLimpar(); // chama a função
